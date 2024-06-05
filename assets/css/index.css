@@ -1,0 +1,98 @@
+@import url(bootstrap.min.css);
+@import url(all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+*{
+    --main-color: #FDEEDC;
+    --secondary-color: #F1A661;
+    --second-secondary-color: #F1A661;
+    --third-color: #E38B29;
+    --text-color: #000000; 
+
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-color) !important;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    /* background-color: var(--main-color); */
+    
+    background-image: url(../img/Carosol_1.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+main .col-5{
+    padding: 10rem 0rem;
+   
+}
+main .col-5 h1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+
+}
+.w-75{
+    width: 75% !important;
+}
+
+main .col-7{
+    border-left: 2px solid var(--second-secondary-color) !important;
+}
+
+main .col-7 form{
+    gap: 1.2rem;
+}
+
+main .col-7 form input:focus{
+    box-shadow: 0px 0px 5px 2px rgba(227, 140, 41, 0.782);
+    border: 1px solid var(--secondary-color);
+}
+
+main .col-7 form .btn{
+    background-color:  var(--third-color);
+    color: white !important;
+    padding: 0.6rem 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2rem !important;
+}
+
+main .col-7 form .invalid-feedback{
+    font-weight: bold !important;
+}
+
+main .col-7 > div{
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+
+.dropdown-divider{
+    height: 1px !important;
+    border-top: 2px solid var(--second-secondary-color);
+}
+
+main .col-7 > h5 a{
+    text-decoration: none;
+    color: var(--third-color) !important;
+    padding: 0.3rem 0.4rem;
+    border-radius: 10px;
+}
+
+main .col-7 > h5 a:hover{
+    background-color: var(--third-color);
+    color: white !important;
+}
+
+main .col-7 input[type="radio"]:checked{
+    box-shadow: none !important;
+}
+
+main .col-7 input[type="checkbox"]:checked{
+    box-shadow: none !important;
+}

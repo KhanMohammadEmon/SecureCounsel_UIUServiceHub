@@ -1,0 +1,59 @@
+body {
+    background: #f5f5f5
+}
+
+.rounded {
+    border-radius: 1rem
+}
+
+.nav-pills .nav-link {
+    color: #555
+}
+
+.nav-pills .nav-link.active {
+    color: white
+}
+
+input[type="radio"] {
+    margin-right: 5px
+}
+
+.bold {
+    font-weight: bold
+}
+
+
+.nav-pills .nav-link.active {
+    color: white !important;
+    background-color: rgb(238, 165, 70) !important;
+    border-color: rgb(238, 165, 70) !important;
+}
+.btn-cus{
+    color: white !important;
+    background-color: rgb(238, 165, 70) !important;
+    border-color: rgb(238, 165, 70) !important;
+    padding-top: 20px;
+    width: 100% !important;
+    height: 50px !important;
+}
+.btn-cus:hover{
+    background-color: rgb(220, 140, 35) !important;
+    border-color: rgb(220, 140, 35) !important;
+}
+
+
+.form-group {
+    padding: 5%;
+}
+.btn-cus2{
+    color: white;
+    background-color: rgb(178, 176, 174) !important;
+    border-color: rgb(178, 176, 174) !important;
+    padding-top: 20px;
+    width: 100% !important;
+    height: 50px !important;
+}
+.btn-cus2:hover{
+    background-color: rgb(148, 146, 144) !important;
+    border-color: rgb(148, 146, 144) !important;
+}

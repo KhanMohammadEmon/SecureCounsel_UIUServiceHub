@@ -1,0 +1,17 @@
+.btn1{
+    margin-top: 2%;
+}
+
+.custom-btn{
+    color: white !important;
+    background-color: rgb(238, 165, 70) !important;
+    border-color: rgb(238, 165, 70) !important;
+    padding-top: 20px;
+    width: 100% !important;
+    height: 50px !important;
+    
+}
+.custom-btn:hover{
+    background-color: rgb(220, 140, 35) !important;
+    border-color: rgb(220, 140, 35) !important;
+}

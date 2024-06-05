@@ -1,0 +1,4 @@
+curl -H "Authorization: Bearer wys_a12jkbhZqCeRMDO32HJ5USK42q60tC3X01hE" -H "Content-Type: application/json" https://0765099578dd4eee948a623b6f2b88ed.weavy.io/api/users/demouser/tokens -d "{'name': 'Demo User', 'expires_in': 7200}"
+
+curl -H "Authorization: Bearer wys_a12jkbhZqCeRMDO32HJ5USK42q60tC3X01hE" -H "Content-Type: application/json" https://0765099578dd4eee948a623b6f2b88ed.weavy.io/api/apps/init -d "{ app: { uid: 'demochat', name: 'Demo chat', type: 'Chat' }, user: { uid: 'demouser' } }"
+

@@ -1,0 +1,260 @@
+@import url(../../../../assets/css/bootstrap.min.css);
+@import url(../../../../assets/css/all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+* {
+    --main-color: #FDEEDC;
+    --secondary-color: #F1A661;
+    --second-secondary-color: #F1A661;
+    --third-color: #E6E1DF;
+    --text-color: #000000;
+
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-color) !important;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: var(--third-color);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+nav img {
+    width: 150px;
+}
+ 
+.border-all{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px 8px;
+}
+
+
+body>div {
+    padding: 0 1rem !important;
+    height: 100vh;
+}
+
+body>div>div:first-child {
+    height: 100vh;
+    padding-right: 1rem;
+    border-right: 1px solid var(--secondary-color);
+}
+
+body>div button {
+    font-size: 1.2rem !important;
+}
+
+.nav-pills .nav-link.active {
+    background-color: transparent !important;
+    font-weight: bold;
+    color: var(--third-color) !important;
+    border-bottom: 1px solid var(--third-color);
+    border-radius: 0;
+}
+
+.border-uiu {
+    border: 1px solid var(--third-color) !important;
+}
+
+.border-top-uiu {
+    border-top: 1px solid var(--third-color) !important;
+}
+
+.border-bottom-uiu {
+    border-bottom: 1px solid var(--third-color) !important;
+}
+
+.btn-uiu {
+    background-color: var(--secondary-color) !important;
+    color: white !important;
+}
+
+.card-header {
+    /* background-color: var(--secondary-color) !important; */
+    color: white !important;
+    text-transform: uppercase;
+}
+
+.modal-footer {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-floating>#commentInput:focus,
+.form-floating>input:focus {
+    box-shadow: 0px 0px 5px 2px rgba(227, 140, 41, 0.782) !important;
+    border: 1px solid var(--secondary-color) !important;
+}
+
+section#form , section#jform .masonry-blog {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 25rem));
+    grid-gap: 0.6rem;
+}
+
+section#jform .masonry-blog .card{
+    height: 300px;
+}
+
+ol {
+    margin: 0 0 1.5em;
+    padding: 0;
+    counter-reset: item;
+}
+
+ol>li {
+    margin: 0;
+    padding: 0 0 0 2em;
+    text-indent: -2em;
+    list-style-type: none;
+    counter-increment: item;
+}
+
+ol>li:before {
+    display: inline-block;
+    width: 1em;
+    padding-right: 0.5em;
+    font-weight: bold;
+    text-align: right;
+    content: counter(item) ".";
+}
+
+#v-pills-profile>div {
+    padding: 1rem 0.5rem;
+    box-shadow: 0px 0px 4px 3px rgba(231, 166, 26, 1);
+}
+
+#v-pills-profile>div figure figcaption {
+    font-size: 1.4rem !important;
+}
+
+#v-pills-profile>div figure img {
+    max-width: 200px !important;
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 999px;
+    box-shadow: 0px 0px 4px 3px var(--text-color);
+}
+
+#v-pills-profile>div div {
+    font-size: 1.2rem;
+}
+
+#upper {
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 62px;
+    width: 88%;
+    height: 88%;
+    background-color: #f1a761e5;
+    z-index: 9999;
+}
+
+.btn-uiu-white {
+    background-color: #fff !important;
+    color: #E38B29 !important;
+}
+
+#chat>div {
+    padding: 0.3rem 1rem;
+    height: 80vh;
+    border-radius: 20px;
+    border-bottom: 8px solid var(--secondary-color);
+    gap: 1rem;
+}
+
+#msg {
+    height: 80%;
+    
+}
+
+#msg section>p:first-child {
+    background-color: var(--second-secondary-color);
+    color: white !important;
+    min-width: 5%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+#msg section>p:last-child {
+    padding: 5px 0;
+    padding-left: 5px;
+
+    border: 2px solid var(--second-secondary-color);
+    width: 96%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#msg > div.scroll{
+    height: 100%;
+    overflow-y: auto;
+    flex-direction: column-reverse;
+}
+
+
+.fa-regular:hover{
+    color: red !important;
+}
+
+#card-div{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.6;
+    transition: all ease-in 200ms;
+}
+
+.left-side > .card:hover #card-div{
+    background-position: center;
+    background-size: 800px;
+    opacity: 0.2;
+}
+
+.shadow-desc{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    border: 2px solid white;
+    width: 95%;
+    padding: 5px 5px;
+}
+
+.shadow-desc a{
+    text-decoration: none;
+}
+
+#view{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border-bottom: 1px solid var(--third-color);
+}
+
+#view:hover{
+    background-color: var(--second-secondary-color);
+    color: white !important;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 3px solid white;
+}
+
+.shadow-desc span a{
+    cursor: auto;
+    padding: 0;
+}
+
+.btn-text{
+    padding: 0;
+}
+
